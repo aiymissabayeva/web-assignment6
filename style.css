@@ -162,3 +162,22 @@ button:hover {
     top: 10px;
     left: 10px;
 }
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.thumbnail {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.thumbnail:hover {
+    opacity: 0.8;
+}
