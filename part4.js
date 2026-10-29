@@ -25,3 +25,14 @@ $("#animateBtn1").click(function(){
         height: "80px"
     }, 500);
 });
+
+
+$("#animateBtn2").click(function(){
+    $("#box2").animate({
+        width: "150px",
+        height: "150px",
+        left: "200px",
+        top: "100px",
+        opacity: "0.5"
+    }, 1000);
+});
