@@ -17,3 +17,12 @@ $("#srcBtn").click(function(){
 $("#hrefBtn").click(function(){
     $("#link").attr("href","https://learn.astanait.edu.kz/login?next=/dashboard");
 });
+
+
+$("#name").on("input", function(){
+    $("#displayName").text($("#name").val());
+})
+
+$("#email").on("input", function(){
+    $("#displayEmail").text($("#email").val());
+})

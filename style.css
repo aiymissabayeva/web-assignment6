@@ -103,3 +103,23 @@ button:hover {
     color: #365a92;
     font-weight: bold;
 }
+
+#formInput label {
+    display: block;
+    margin: 12px 0 5px;
+    font-weight: bold;
+}
+
+#formInput input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccd5e3;
+    border-radius: 6px;
+}
+
+#formOutput {
+    background-color: #e8effa;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
