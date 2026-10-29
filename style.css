@@ -72,3 +72,10 @@ button:hover {
     display: block;
     margin-bottom: 20px;
 }
+
+#slidePanel {
+    background-color: #e8effa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
