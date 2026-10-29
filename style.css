@@ -64,3 +64,11 @@ button {
 button:hover {
     background-color: #243b66;
 }
+
+#fadeImage {
+    width: 350px;
+    max-width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+}
