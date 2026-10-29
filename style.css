@@ -4,8 +4,10 @@
 
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f7fb;
+    color: #263248;
 }
 
 .navbar {
@@ -29,4 +31,36 @@ body {
 
 .nav-links a:hover {
     color: #94d8ff;
+}
+
+.task {
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 750px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+    color: #243b66;
+    font-size: 24px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+button {
+    background-color: #365a92;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #243b66;
 }
