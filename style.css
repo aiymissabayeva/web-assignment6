@@ -123,3 +123,22 @@ button:hover {
     padding: 10px 20px;
     border-radius: 8px;
 }
+
+.animationArea {
+    position: relative;
+    height: 300px;
+    background-color: #e8effa;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+#box {
+    width: 80px;
+    height: 80px;
+    background-color: #365a92;
+    border-radius: 6px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
